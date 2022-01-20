@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>my-book</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<audio autoplay>
+  <source src="../../../assets/sounds/sound-here.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<ion-content>
+  <ion-card>
+    <img src="../../../assets/img/pexels-ian-lavrinovich-9056836.jpg" alt="image description">
+    <p class="justify ion-padding">
+      Text here!!!
+    </p>
+
+    <ion-button routerLink="/my-book/option-e" routerDirection="forward" class="left-btn">
+      Option E
+    </ion-button>
+
+    <ion-button routerLink="/my-book/option-f" routerDirection="forward" class="right-btn">
+      Option F
+    </ion-button>
+  </ion-card>
+</ion-content>

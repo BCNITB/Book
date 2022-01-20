@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>     
+    <ion-title>
+      Libros
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <a class="book-title" routerLink="/my-book" routerDirection="forward">
+      <div id="my-book" class="book"></div>
+      <p id="my-book-title">My Book</p>
+    </a>
+  </div>
+</ion-content>
