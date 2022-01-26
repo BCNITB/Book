@@ -7,7 +7,11 @@ const routes: Routes = [
   {
     path: '',
     component: A001SiciliaPage
+  },  {
+    path: 'antoni',
+    loadChildren: () => import('./antoni/antoni.module').then( m => m.AntoniPageModule)
   }
+
 ];
 
 @NgModule({
