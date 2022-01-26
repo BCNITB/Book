@@ -26,12 +26,29 @@
   text-decoration: none;
 }
 
+/*------------ CLASSES ----------------------*/
 .book {
   height: 15vh;
   width: auto;
 
   margin: 2vh 32vw;
 }
+
+.book-title{
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 0.5em;
+  margin: 0 5vw;
+}
+
+
+/*------------ ID ----------------------*/
 
 #my-book {
   background: url('../../assets/img/my-book.png') no-repeat;
@@ -42,8 +59,11 @@
   margin-top: -1vh;
 }
 
-.book-title{
-  text-align: center;
-  text-decoration: none;
-  font-size: 2em;
+#illes-formigues {
+  background: url('../../assets/img/cover.jpg') no-repeat;
+  background-size: contain;
+}
+
+#illes-formigues-title {
+  margin-top: -1vh;
 }

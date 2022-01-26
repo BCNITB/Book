@@ -40,3 +40,29 @@
 .right-btn{
     margin: 2vh 7vw;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.item{
+    width: 20vw;
+    margin: 0 2vw;
+    text-align: center;
+}
+
+.hidden{
+    position: absolute;
+    top: -9999px;
+
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}

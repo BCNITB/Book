@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'my-book',
     loadChildren: () => import('./my-book/my-book.module').then( m => m.MyBookPageModule)
+  },  {
+    path: 'illes-formigues',
+    loadChildren: () => import('./illes-formigues/illes-formigues.module').then( m => m.IllesFormiguesPageModule)
   },
+
 ];
 
 @NgModule({
