@@ -8,6 +8,8 @@ import { AntoniPageRoutingModule } from './antoni-routing.module';
 
 import { AntoniPage } from './antoni.page';
 
+import { ComponentsModule } from './components/components.module';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +17,12 @@ import { AntoniPage } from './antoni.page';
     IonicModule,
     AntoniPageRoutingModule
   ],
-  declarations: [AntoniPage]
+  declarations: [
+    AntoniPage,
+    ComponentsModule
+  ],
+  exports: [
+    ComponentsModule
+  ]
 })
 export class AntoniPageModule {}

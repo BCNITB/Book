@@ -16,13 +16,24 @@ export class AntoniPage implements OnInit {
 
   option(c){
     switch(c){
-      case 1:
+      case 1: // perseguir-lladre
         this.choosenOption=1;
         break;
-      case 2:
+      case 2: // calmar-amic
         this.choosenOption=2;
         break;
-
+      case 3: // continuar-persecucio
+        this.choosenOption=3;
+        break;
+      case 4: // deixar-persecucio
+        this.choosenOption=4;
+        break;
+      case 5: // duur-bossa
+        this.choosenOption=5;
+        break;
+      case 6: // avançar
+        this.choosenOption=6;
+        break;
     }
 
   }

@@ -19,24 +19,24 @@
         francès ens envaeixi a nosaltres. – Apuntava el soldat. - Felip l’Atrevit es veu que li diuen.
       </p>
       <p>
-        -	Molt atrevit ha d’ésser per a intentar invairenvair-nos – Va dir rient l’Antoni – encara que més que atrevit li diria el boig!
+        -	Molt atrevit ha d’ésser per a intentar invairenvair-nos – Dius rient – encara que més que atrevit li diria el boig!
       </p>
       <p>
-        -	Bé que ho ha d’estar si creu que li posarem fàcil. – va afegir el soldat.
+        -	Bé que ho ha d’estar si creu que li posarem fàcil. – afegeix el soldat.
       </p>
       <p>
-        L’Antoni rient es palmeja a les cames i afegeix – Si hi ha guerra ja hi anirem, però la guerra no està aquí ara. – Aixeca la ma fent 
+        Rient et palmejes a les cames i afegeixes – Si hi ha guerra ja hi anirem, però la guerra no està aquí ara. – Aixeques la ma fent 
         un gest a la cambrera per que porti més vi. – A aquesta convido jo.
       </p>
       <p>
-        La cambrera porta una ampolla plena de vi i els dos soldats aixequen els gots per a brindar desprès d’afegir-ne més vi als gots. Desprès 
-        d’unes quantes rialles i ampolles més els soldats s’aixequen i agafant-se de les espatlles es van caminant cap al carrer.
+        La cambrera us porta una ampolla plena de vi i els dos aixequeu els gots per a brindar desprès d’afegir-ne més vi als gots. Unes quantes rialles i ampolles més tard
+        us aixequeu i agafant-vos de les espatlles us aneu caminant cap al carrer.
       </p>
       <p>
         La nit està calmada i no es sent cap veu. De sobte el soldat llença un crit – Al lladre! Maleit marrec! M’ha pres la bossa.
       </p>
       <p>
-        L’Antoni es gira ràpidament i veu com una figura tomba per enfilar un dels carrerons que s’allunyen del moll.
+        Et gires ràpidament per veure com una figura tomba per enfilar un dels carrerons que s’allunyen del moll.
       </p>
     
       <div class="center">
@@ -45,5 +45,36 @@
       </div>
     </div>
     
+    <div *ngIf="choosenOption==1">
+      <app-perseguir-lladre></app-perseguir-lladre>
+      <div class="center">
+        <input type="button" value="T'aixeques i continues la persecució" routerDirection="forward" class="btn" (click)="option(3)">
+        <input type="button" value="Abandones la persecució" routerDirection="forward" class="btn" (click)="option(4)">  
+      </div>
+    </div>
+
+    <div *ngIf="choosenOption==3">
+      <app-continuar-persecucio></app-continuar-persecucio>
+      <div class="center">
+        <input type="button" value="Li ofereixes duu la bossa per ella" routerDirection="forward" class="btn" (click)="option(5)">
+        <input type="button" value="L’avances" routerDirection="forward" class="btn" (click)="option(6)">  
+      </div>
+    </div>
+
+    <div *ngIf="choosenOption==5">
+      <app-duur-bossa></app-duur-bossa>
+      <div class="center">
+        <input type="button" value="Li ofereixes duu la bossa per ella" routerDirection="forward" class="btn" (click)="option(7)">
+        <input type="button" value="L’avances" routerDirection="forward" class="btn" (click)="option(8)">  
+      </div>
+    </div>
+
+    <div *ngIf="choosenOption==7">
+      <app-parlar-soldats></app-parlar-soldats>
+      <div class="center">
+        <input type="button" value="Et gires i camines cap a un grup de soldats." routerDirection="forward" class="btn" (click)="option(9)">
+        <input type="button" value="Decideixes seguir-la. Et deu una explicació." routerDirection="forward" class="btn" (click)="option(10)">  
+      </div>
+    </div>
   </ion-card>
 </ion-content>
