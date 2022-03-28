@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <!-- TODO: Modificar el text pel títol de la pàgina o eliminarem la següent línia -->
+    <ion-title>Títol de pàgina</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <audio autoplay>
+    <!-- TODO: Enllaç al so -->
+    <source src="../../../../assets/sounds/sound-here.mp3" type="audio/mp3">
+    El teu navegador no suporta aquest arxiu de so.
+  </audio>
+
+  <!-- TODO: Modificar el text per continuar amb la història -->
+  <p>
+    Text de la pàgina
+  </p>
+
+  <!-- 
+    TODO: Modificar routerLink amb l'enllaç a la pàgina de destí. 
+    Modificar OPCIÓ 9 amb l'opció donada al lector
+  -->
+  <ion-button id="opcio-1" shape="round" routerLink="/el-meu-llibre/video">Opció 9</ion-button>
+
+  <!-- 
+    TODO: Modificar routerLink amb l'enllaç a la pàgina de destí. 
+    Modificar OPCIÓ 10 amb l'opció donada al lector
+  -->
+  <ion-button id="opcio-2" shape="round" routerLink="/el-meu-llibre/so">Opció 10</ion-button>
+</ion-content>

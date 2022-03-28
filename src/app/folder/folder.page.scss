@@ -1,0 +1,19 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+/* 
+    TODO: Per afegir un nou llibre copia el següent bloc i modificar el text EL-MEU-LLIBRE per títol del llibre.
+    també s'ha de modificar la direcció URL de la propietat BACKGRPUND per indicar on és la portada del llibre
+*/
+#el-meu-llibre{
+  margin: 2vh 10vw;
+  height: 40vh;  
+  width: 80vw;
+
+  background: url('../../assets/img/el_meu_llibre/el-meu-llibre.jpg') no-repeat fixed center;
+  -webkit-bacground-background-size: cover;
+  -moz-bacground-background-size: cover;
+  -o-bacground-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,17 @@
+#el-meu-llibre{
+  height: 50vh;  
+  width: 90vw;
+
+  margin: auto;
+
+  background: url('../../../assets/img/el_meu_llibre/el-meu-llibre.jpg') no-repeat fixed center;
+  -webkit-bacground-background-size: cover;
+  -moz-bacground-background-size: cover;
+  -o-bacground-background-size: cover;
+  background-size: cover;
+}
+
+p{
+  text-align: justify;
+  margin: 2vh 10vw;
+}

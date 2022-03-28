@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Inici</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <!-- TODO: Per afegir un nou llibre copia les següents línies i modificar el text EL-MEU-LLIBRE pel títol de llibre -->
+  <button (click)="openBook(0)" data-message="Obrir el-meu-llibre" type="button" class="btn">
+    <div id="el-meu-llibre" aria-hidden="true" viewBox="0 0 10 10"></div>
+  </button>
+  
+</ion-content>
