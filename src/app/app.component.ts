@@ -10,6 +10,7 @@ export class AppComponent {
     { title: 'Guardar', url: '/save', icon: 'bookmark' },
     { title: 'Carregar', url: '/pages/load', icon: 'archive' },
     { title: 'El meu llibre', url: '/el-meu-llibre', icon: 'book' },
+    { title: 'La Girafa i El Conill', url: '/la-girafa-i-el-conill', icon: 'book' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];

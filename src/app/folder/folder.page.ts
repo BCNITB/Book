@@ -10,7 +10,7 @@ import { AngularDelegate } from '@ionic/angular';
 export class FolderPage {
   
   /* TODO: Afegir el títol del nou llibre a l'array inferior. Els títols s'han de separar per una coma i anar entrre "" (cometes dobles)*/
-  llibres:string[]=["/el-meu-llibre"];
+  llibres:string[]=["/el-meu-llibre", "/la-girafa-i-el-conill"];
 
   constructor(private router: Router) { }
 

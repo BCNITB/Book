@@ -1,0 +1,47 @@
+p{
+    margin: 2vh 5vw;
+    text-align: justify;
+}
+
+#opcio-1{
+    margin: 2vh 7vw;
+}
+
+.img{
+    background-color: red;
+}
+
+/*#girafa{
+    text-transform: uppercase;
+    //bac/kground-color: red;
+}*/
+
+.btn-img{
+    width: auto;
+    height: 13vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#btn-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#girafa{
+    background-image: url('../../../assets/img/la-girafa-i-el-conill/girafa.png');
+}
+
+#conill{
+    background-image: url('../../../assets/img/la-girafa-i-el-conill/conill.png');
+}
+
+.hidden-txt{
+    opacity: 0;
+}
+
+#opcio-2{
+    margin: 2vh 7vw;
+}
